@@ -1,0 +1,27 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid black;
+    width: 40%;
+    gap: 10px;
+    margin: 30px auto;
+    height: 550px;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+  
+  input,
+  #content {
+    width: 70%;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: large;
+  }
+  
+  #content {
+    height: 130px;
+    resize: none;
+  }
+  

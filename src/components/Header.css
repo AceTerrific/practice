@@ -1,0 +1,27 @@
+.nav-bar-container {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  top: 0px;
+  background-color: #27374d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #dde6ed;
+  font-size: larger;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+a:hover {
+  text-shadow: 0 0 20px #dde6ed;
+  border-bottom: 1px solid #dde6ed;
+}

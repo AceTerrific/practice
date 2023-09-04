@@ -1,0 +1,52 @@
+.post-box-container {
+  position: relative;
+  height: 460px;
+  width: 400px;
+  background-color: #9db2bf;
+  font-size: larger;
+  padding: 0 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.post-main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 20px;
+  margin-top: 20px;
+}
+.post-container {
+  max-height: 370px;
+  overflow-y: auto;
+}
+
+.post-container::-webkit-scrollbar {
+  width: 5px;
+}
+.post-container::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.post-container::-webkit-scrollbar-track {
+  margin-top: 20px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  gap: 10px;
+  left: 60px;
+}
+
+
+.editing-container{
+
+  height: 150px;
+  width: 350px;
+}
